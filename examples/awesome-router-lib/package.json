@@ -1,0 +1,12 @@
+{
+  "name": "awesome-router-lib",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "vue-router-demi": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue-router": "^3.6.0 || >=4.0.0"
+  }
+}

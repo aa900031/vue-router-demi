@@ -1,0 +1,35 @@
+{
+  "name": "vue-router-demi",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/aa900031/vue-router-demi.git",
+  "author": "zhong666 <hi@zhong666.me>",
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "bin": {
+    "vue-router-demi-fix": "bin/vue-router-demi-fix.js",
+    "vue-router-demi-switch": "bin/vue-router-demi-switch.js"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "scripts"
+  ],
+  "scripts": {
+    "switch": "node ./scripts/switch-cli.js",
+    "postinstall": "node ./scripts/postinstall.js",
+    "dev:3": "npm run switch -- 3.6 && pnpm --filter demo-vue-router-3 run dev",
+    "dev:4": "npm run switch -- 4 && pnpm --filter demo-vue-router-4 run dev"
+  },
+  "dependencies": {
+    "pkg-types": "^0.3.6"
+  },
+  "peerDependencies": {
+    "vue-router": "^3.6.0 || >=4.0.0"
+  }
+}

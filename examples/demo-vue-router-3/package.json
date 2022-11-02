@@ -1,0 +1,16 @@
+{
+  "name": "demo-vue-router-3",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "awesome-router-lib": "workspace:*",
+    "vue": "^2.7.0",
+    "vue-router": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.0.0",
+    "vite": "^3.2.2"
+  }
+}
