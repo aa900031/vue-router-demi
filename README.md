@@ -4,8 +4,8 @@ Creates Universal Library for Vue Router 3 & 4
 
 ## Strategies
 
-- `3.6`: exports from `vue-router/composables` (Composition API is built-in).
-- `>=3.0`: exports from `vue-router`.
+- vue-router `3.6`: exports from `vue-router/composables` (Composition API is built-in).
+- vue-router `>=4.0`: exports from `vue-router`.
 
 ## Usage
 
