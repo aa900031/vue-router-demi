@@ -4,6 +4,9 @@
   "license": "MIT",
   "repository": "https://github.com/aa900031/vue-router-demi.git",
   "author": "zhong666 <hi@zhong666.me>",
+  "main": "lib/index.cjs",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
   "exports": {
     ".": {
       "require": "./lib/index.cjs",
